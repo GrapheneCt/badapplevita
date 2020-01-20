@@ -111,9 +111,9 @@ int allocMemory(uint32_t monolen) {
 
 	fbmOpt.size = sizeof(fbmOpt);
 	fbmOpt.attr = 4;
-	fbmOpt.alignment = 256*1024;
+	fbmOpt.alignment = 4*1024;
 
-	fb_memblock = sceKernelAllocMemBlock("FrameBuffer CDRAM", SCE_KERNEL_MEMBLOCK_TYPE_USER_CDRAM_RW, 0x200000, &fbmOpt);
+	fb_memblock = sceKernelAllocMemBlock("FrameBuffer CDRAM", SCE_KERNEL_MEMBLOCK_TYPE_USER_RW_UNCACHE, 0x200000, &fbmOpt); //CDRAM cannot be used
 
 	sceClibPrintf("fb_memblockL 0x%x\n", fb_memblock);
 
