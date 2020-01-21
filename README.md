@@ -1,6 +1,6 @@
 # PoC: BadappleVita, but it's system application
 
-aka version of BadappleVita that can be started simultaneously with the game.
+aka version of BadappleVita that can be started simultaneously with the game application.
 
 Use [NoSharedFb](https://github.com/GrapheneCt/NoSharedFb) to bypass framebuffer problems when resuming from LiveArea.
 
