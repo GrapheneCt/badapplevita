@@ -1,4 +1,4 @@
-# PoC: BadappleVita, but it's system application
+# PoC: BadappleVitaSystem
 
 aka version of BadappleVita that can be started simultaneously with the game application in the background.
 
