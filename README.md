@@ -2,7 +2,7 @@
 
 aka version of BadappleVita that can be started simultaneously with the game application in the background.
 
-Use [NoSharedFb](https://github.com/GrapheneCt/NoSharedFb) to bypass framebuffer problems when resuming from LiveArea.
+Use [NoSharedFb plugin](https://github.com/GrapheneCt/NoSharedFb) to bypass framebuffer problems when resuming from LiveArea.
 
 TODO: reduce number of threads, switch to system core -> allow to run in background.
 
