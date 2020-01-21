@@ -2,7 +2,9 @@
 
 aka version of BadappleVita that can be started simultaneously with the game.
 
-Use [NoSharedFb](https://github.com/GrapheneCt/NoSharedFb) to bypass framebuffer problems when resuming from LiveArea
+Use [NoSharedFb](https://github.com/GrapheneCt/NoSharedFb) to bypass framebuffer problems when resuming from LiveArea.
+
+TODO: reduce number of threads, switch to system core -> allow to run in background.
 
 Another thing using monorale engine that originally made for Badapple3ds.
 
